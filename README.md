@@ -12,6 +12,7 @@ Run the script as the user you wish to have ability to use LXC containers, it wi
 
 Example:-
 
+```
 james@neo:~ $ lxc-ls --fancy
 james@neo:~ $ whoami
 james
@@ -47,4 +48,4 @@ total 12
 4 drwxr-xr-x 17 100000000 100000000 4096 Jul 31 08:47 ..
 4 drwxr-x---  2 100001000 100001000 4096 Jul 31 08:45 ubuntu
 james@neo:~ $ 
-
+```
