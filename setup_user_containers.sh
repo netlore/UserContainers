@@ -242,6 +242,7 @@ EOF
   mkdir -p "${HOME}/.config"
   mkdir -p "${HOME}/.local/share/lxc"
   mkdir -p "${HOME}/.cache/lxc" 
+  setfacl -m u:${SUBID}:x "${HOME}"
   setfacl -m u:${SUBID}:x "${HOME}/.local"
   setfacl -m u:${SUBID}:x "${HOME}/.local/share"
   setfacl -m u:${SUBID}:x "${HOME}/.local/share/lxc"
