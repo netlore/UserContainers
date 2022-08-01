@@ -84,20 +84,18 @@ useraction () {
  printf "${CYAN}"
  if [ ${REBOOT} -eq 0 ]&&[ ${RELOG} -eq 1 ]; then
   echo "We installed some components which likely require that you log out"
-  echo "and back in before continueing."
+  echo "and back in before trying to use LXC containers."
   echo
-  echo "Aborting, please re-un this script once you are ready."
+  echo "Please do this before trying to use unprivilaged LXC containers."
   echo
   printf "${WHITE}"
-  exit 1
  elif [ ${REBOOT} -eq 1 ]; then
   echo "We installed some components or applied configuration which require"
-  echo "that you REBOOT before continueing."
+  echo "that you REBOOT before trying to use LXC containers."
   echo
-  echo "Aborting, please re-un this script once you are ready."
+  echo "Please reboot before trying to use unprivilaged LXC containers."
   echo
   printf "${WHITE}"
-  exit 1
  fi
 }
 
