@@ -1,6 +1,8 @@
 # Setup User Containers for LXC (for Debian/Ubuntu based systems)
 
-If you've used LXC for quick test machines, or any other purpose, you will appreciate their usefulness.  
+If you've used LXC for quick test machines, or any other purpose, you will appreciate their usefulness.  If you have not, then you can see
+an [Introduction Here](https://linuxcontainers.org/lxc/introduction/)\
+
 This tool will perform the configuration necessary to allow you to run them without being root.
 
 It started out as a script I created for my own convenience, but it's been so useful a few people have asked to use it, so I've made it available here.  It's been tested it on Ubutnu 20.04 - 22.04, and on Debian 11, but YMMV.
